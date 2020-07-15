@@ -1,0 +1,111 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 400px;
+  width: 45%;
+  text-align: left;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+.header {
+  background-color: #659DBD;
+  border-radius: 20px 20px 0 0;
+  padding-top: 5px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.clearAll {
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+
+.clearAll i{
+    font-size: 30px;
+    color: #FFF;
+}
+.clearAll i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+
+#date {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+form {
+  outline: 0;
+  height: 36px;
+  border: 2px solid #3b3b3b;
+}
+
+input[type="text"] {
+  outline: 0;
+  width: 85%;
+  height: 34px;
+  border: none;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 4.5%;
+}
+
+.add {
+  outline: 0;
+  float: right;
+  width: 10%;
+  height: 36px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+
+.list {
+  background-color: #DAAD86;
+}
+
+ul {
+  padding: 5px;
+  text-align: left;
+  list-style: none;
+  margin-top: 0;
+  position: relative;
+}
+
+hr {
+  border-bottom: 0;
+  margin: 15px 0;
+}
+
+input[type="checkbox"] { 
+  width: 30px; 
+}
+
+.remove {
+  float: right;
+  cursor: pointer;
+}
+
+.remove:hover {
+  color: #f00;
+}
+
+.completed {
+ text-decoration: line-through; 
+}
