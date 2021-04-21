@@ -81,7 +81,7 @@ input[type="text"] {
 }
 
 ul {
-  padding: 5px;
+  padding: 0 5px;
   text-align: left;
   list-style: none;
   margin-top: 0;
